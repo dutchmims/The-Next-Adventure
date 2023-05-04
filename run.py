@@ -28,9 +28,9 @@ def instructions():
     print_delay("======================================")
 
 def intro():
-    print_delay("You wake up in a mysterious room.")
-    print_delay("There are three doors in front of you.")
-    print_delay("One is red, one is blue, and one is green.")
+    print_delay("You wake up in a mysterious room, without any memory of how you goy there!")
+    print_delay("There are three doors. The right door could save yout life, the wrong door could end it!")
+    print_delay("Ther si a red door, a blue door, and a greendoor.")
 
 def choose_door():
     print_delay("Which door do you choose? (red/blue/green)")
