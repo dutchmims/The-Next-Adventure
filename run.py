@@ -27,6 +27,11 @@ def instructions():
     print_delay("Be careful! Some choices may lead to failure.")
     print_delay("======================================")
 
+def intro():
+    print_delay("You wake up in a mysterious room.")
+    print_delay("There are three doors in front of you.")
+    print_delay("One is red, one is blue, and one is green.")
+
 def play_game():
     title()
     instructions()
