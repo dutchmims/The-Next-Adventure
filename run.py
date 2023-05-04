@@ -27,3 +27,10 @@ def instructions():
     print_delay("Be careful! Some choices may lead to failure.")
     print_delay("======================================")
 
+def play_game():
+    title()
+    instructions()
+    intro()
+    choose_door()
+
+play_game()
