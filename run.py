@@ -19,4 +19,11 @@ def title():
     print("                                      ")
     print("======================================")
 
+def instructions():
+    print_delay("Instructions:")
+    print_delay("You wake up in a mysterious room.")
+    print_delay("Explore different rooms, make choices, and see how the story unfolds.")
+    print_delay("Your goal is to reach the end and win the game.")
+    print_delay("Be careful! Some choices may lead to failure.")
+    print_delay("======================================")
 
