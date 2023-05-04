@@ -12,3 +12,11 @@ def print_delay(text, delay=1.5):
     print(text)
     time.sleep(delay)
 
+def title():
+    print("======================================")
+    print("                                      ")
+    print("         The Next Adventure           ")
+    print("                                      ")
+    print("======================================")
+
+
