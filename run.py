@@ -32,6 +32,23 @@ def intro():
     print_delay("There are three doors in front of you.")
     print_delay("One is red, one is blue, and one is green.")
 
+def choose_door():
+    print_delay("Which door do you choose? (red/blue/green)")
+    choice = input().lower()
+    if choice == "red":
+        print_delay("You open the red door.")
+        red_door()
+    elif choice == "blue":
+        print_delay("You open the blue door.")
+        blue_door()
+    elif choice == "green":
+        print_delay("You open the green door.")
+        green_door()
+    else:
+        print_delay("Invalid choice. Try again.")
+        choose_door()
+
+
 def play_game():
     title()
     instructions()
