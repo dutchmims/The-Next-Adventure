@@ -100,6 +100,20 @@ def green_door():
         print_delay("You follow the river and encounter a group of hostile creatures.")
         fight_or_flee()
 
+def fight_or_flee():
+    print_delay("Do you want to fight or flee? (fight/flee)")
+    choice = input().lower()
+    if choice == "fight":
+        print_delay("You try to fight, but the creatures overpower you.")
+        print_delay("Game Over!")
+    elif choice == "flee":
+        print_delay("You manage to escape and find a safe place.")
+        print_delay("You continue your journey.")
+        continue_journey()
+    else:
+        print_delay("Invalid choice. Try again.")
+        fight_or_flee()
+
 
 def play_game():
     title()
