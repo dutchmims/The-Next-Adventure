@@ -23,9 +23,6 @@ def title():
 
 def instructions():
     print_delay("Instructions:")
-    print_delay("You wake up in a strange and mysteriuos room, confused and scared.")
-
-    print_delay("You get yourself together and decide to go and explore.")
 
     print_delay("You have to choose between different doors, rooms and path to find your way.")
 
@@ -36,57 +33,42 @@ def instructions():
     print_delay("======================================")
 
 def intro():
-    print_delay("You wake up in a mysterious room, confused and scared, without any memory of how you goy there!")
+    print_delay("You wake up in a strange and mysterious room, confused and scared, without any memory of how you goy there!")
 
-    print_delay("There are three doors. The right door could save yout life, the wrong door could end it!")
+    print_delay("You get yourself together and decide to go and explore.")
+    
+    print_delay("The right path could save yout life, the wrong door could end it!")
 
-    print_delay("There are 3 doors, a red door, a blue door, and a green door.")
+    print_delay("In front of you there are 3 doors, a black door, a yellow door, and a white door.")
 
 
 def choose_door():
-    print_delay("Which door do you choose? (red/blue/green)")
+    print_delay("Which door do you choose? (black/yellow/white)")
     choice = input().lower()
-    if choice == "red":
-        print_delay("You open the red door.")
-        red_door()
-    elif choice == "blue":
-        print_delay("You open the blue door.")
-        blue_door()
-    elif choice == "green":
-        print_delay("You open the green door.")
-        green_door()
+    if choice == "black":
+        print_delay("You open the black door.")
+        black_door()
+    elif choice == "yellow":
+        print_delay("You open the yellow door.")
+        yellow_door()
+    elif choice == "white":
+        print_delay("You open the white door.")
+        white_door()
     else:
         print_delay("Invalid choice. Try again.")
         choose_door()
 
 
-def choose_door():
-    print_delay("Which door do you choose? (red/blue/green)")
-    choice = input().lower()
-    if choice == "red":
-        print_delay("You open the red door.")
-        red_door()
-    elif choice == "blue":
-        print_delay("You open the blue door.")
-        blue_door()
-    elif choice == "green":
-        print_delay("You open the green door.")
-        green_door()
-    else:
-        print_delay("Invalid choice. Try again.")
-        choose_door()
-
-
-def red_door():
+def black_door():
     print_delay("You enter a room filled with treasure!")
     print_delay("Congratulations! You win the game.")
 
-def blue_door():
+def yellow_door():
     print_delay("You enter a room full of beasts.")
     print_delay("The beasts devour you.")
     print_delay("Game Over!")
 
-def green_door():
+def white_door():
     print_delay("You enter a dark forest.")
     print_delay("There are two paths in front of you.")
     print_delay("One leads to a cave and the other to a river.")
@@ -99,6 +81,7 @@ def green_door():
     elif choice == "river":
         print_delay("You follow the river and encounter a group of hostile creatures.")
         fight_or_flee()
+
 
 def fight_or_flee():
     print_delay("Do you want to fight or flee? (fight/flee)")
@@ -113,6 +96,58 @@ def fight_or_flee():
     else:
         print_delay("Invalid choice. Try again.")
         fight_or_flee()
+
+
+def continue_journey():
+    print_delay("You come across a village.")
+    print_delay("The villagers inform you that a powerful wizard resides in the nearby mountains.")
+    print_delay("They believe the wizard can help you find your way back home.")
+    print_delay("Do you want to visit the wizard? (yes/no)")
+    choice = input().lower()
+    if choice == "yes":
+        print_delay("You decide to visit the wizard.")
+        mountain_path()
+    elif choice == "no":
+        print_delay("You choose not to visit the wizard and continue your own journey.")
+        print_delay("Congratulations! You win the game.")
+    else:
+        print_delay("Invalid choice. Try again.")
+        continue_journey()
+
+def mountain_path():
+    print_delay("You embark on a treacherous journey towards the mountain.")
+    print_delay("After a long and difficult climb, you reach the wizard's lair.")
+    print_delay("The wizard welcomes you and asks you to complete a task to prove your worth.")
+    print_delay("He presents you with two doors.")
+    print_delay("Behind one door lies the ultimate knowledge, and behind the other lies doom.")
+
+    print_delay("Which door do you choose? (knowledge/doom)")
+    choice = input().lower()
+    if choice == "knowledge":
+        print_delay("You open the door and find the ultimate knowledge.")
+        print_delay("The wizard is impressed and offers to help you find your way back home.")
+        print_delay("But before you leave, he warns you about an ancient curse.")
+        print_delay("To break the curse, you must retrieve a sacred artifact.")
+        print_delay("The artifact is hidden deep in a forbidden temple.")
+        print_delay("Will you accept the wizard's quest? (yes/no)")
+        choice = input().lower()
+        if choice == "yes":
+            print_delay("You accept the wizard's quest and set off to find the forbidden temple.")
+            print_delay("Your journey is perilous, but after many hardships, you arrive at the temple.")
+            temple()
+        elif choice == "no":
+            print_delay("You decline the wizard's quest and decide to find your own way back home.")
+            print_delay("Congratulations! You win the game.")
+        else:
+            print_delay("Invalid choice. Try again.")
+            mountain_path()
+    elif choice == "doom":
+        print_delay("You open the door and are consumed by darkness.")
+        print_delay("Game Over!")
+    else:
+        print_delay("Invalid choice. Try again.")
+        mountain_path()
+
 
 
 def play_game():
