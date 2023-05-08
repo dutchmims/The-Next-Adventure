@@ -73,34 +73,59 @@ def black_door():
         print_delay("You look into the mirror and nothing!")
         print_delay("After a few seconds, you start to see you entire future unfold in the mirror, but it all happens so quickly!")
         print_delay("You pass out!")
-        print_delay("Suddenly you wake up and Its morning.")
+        print_delay("Suddenly you wake up and It's morning.")
         print_delay("There is an Elf standing over you with a big grin on his face")
         print_delay("He introduces himself as Ernie the Elf and tells you the way out of the maze")
         print_delay("You listen intently to his instructions, bid farewell and set off to find your way out of the maze")
         print_delay("After walking for a while you eventually see the exit, but Its guarded by two Trolls")
         print_delay("You have to decide to fight your way out or try and sneak by the Trolls")
+
         print_delay("Which way will you choose? (fight/sneak)")
+
+    elif choice == "right":
+        print_delay("The noise of people coming towards gets louder and louder")
+        print_delay("you try to find somewher to hide, but its too late")
+        print_delay("A couple of guards ome around the corner and spot you")
+        print_delay("You look up and realise they have spotted you!")
+        print_delay("They chase you down and catch you")
+        print_delay("You are brought back to the castle and locked up in the dungeon")
+        print_delay("You have no way of escape! You shall remain here until death takes you")
+        print_delay("Game Over!")
+
+    else:
+        print_delay("Invalid choice. Try again.")
+        choose_door()
+   
     choice = input().lower()
     if choice == "fight":
         print_delay("You decide to take on the two Trolls! Attacking them while their backs are turned.") 
         print_delay("you surprise them and get the upper hand. After a long struggle, the Trolls gain the upper hand and kill you")
         print_delay("Game Over!")
+
     elif choice == "sneak":
         print_delay("You manage to climb the wall of the maze and find a way out without the Trolls spotting you")
         print_delay("There are two paths in front of you")
         print_delay("One leads to a cave and the other to a river.")
         print_delay("Which path do you choose? cave/river")
+
     else:
         print_delay("Invalid choice. Try again.")
         black_door()	
 
-     print_delay("Which path do you choose? (cave/river)")
     choice = input().lower()
     if choice == "cave":
-        print_delay("You enter a cave and find a hidden treasure!")
-        print_delay("Congratulations! You win the game.")
+        print_delay("You head in to the cave")
+        print_delay("It's late, so you decide to collect any wood you can find and light a fire to stay warm")
+        print_delay("Your fire warms up the cave and you fall asleep")
+        print_delay("Unfortunatley a bear lives deep inside this cave and kills you in the middle of the night")
+        print_delay("You are never seen or heard from again")
+        print_delay("Game over.")
     elif choice == "river":
-        print_delay("You follow the river and encounter a group of hostile creatures.")
+        print_delay("You follow the river for several hours until you come across a rope bridge")
+        print_delay("It's very old and on its last legs! Crossing it will be trecherous")
+        print_delay("You decide to use the rope bridge and cross the river at this point")
+        print_delay("Once across you continue to follow the river and suddenly you come upon a settlement.")
+        print_delay("Several natives spot you approaching!")
         fight_or_flee()
 
 
@@ -138,7 +163,11 @@ def fight_or_flee():
     print_delay("Do you want to fight or flee? (fight/flee)")
     choice = input().lower()
     if choice == "fight":
-        print_delay("You try to fight, but the creatures overpower you.")
+        print_delay("")
+        print_delay("You try to fight, but the natives overpower you.")
+        print_delay("They bring you to their leader")
+        print_delay("Here, your fate will be decided!")
+        print_delay("You are executed then and there")
         print_delay("Game Over!")
     elif choice == "flee":
         print_delay("You manage to escape and find a safe place.")
