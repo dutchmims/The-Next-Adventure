@@ -14,11 +14,11 @@ def print_delay(text, delay=2):
 
 
 def title():
-    print("==========================================================================================================")
-    print("                                                                                                          ")
-    print("                                                The Next Adventure                                        ")
-    print("                                                                                                          ")
-    print("==========================================================================================================")
+    print("================================================================================")
+    print("                                                                                ")
+    print("                                  The Next Adventure                            ")
+    print("                                                                                ")
+    print("================================================================================")
 
 
 def instructions():
@@ -30,7 +30,7 @@ def instructions():
 
     print_delay("Be careful though! The decisions you make will be your fate.")
 
-    print_delay("===========================================================================================================")
+    print_delay("==========================================================================")
 
 def intro():
     print_delay("You wake up in a strange and mysterious room, confused and scared, without any memory of how you goy there!")
