@@ -4,6 +4,18 @@
 
 import time
 
+import os
+
+"""
+For Windows
+"""
+os.system('cls')
+
+"""
+For Linux, macOS
+"""
+os.system('clear')
+
 """
 add print_delay function to create a more immersive experience
 """
@@ -21,6 +33,13 @@ def title():
     print("================================================================================")
 
 
+def welcome():
+    print_delay("Welcome to The Next Adventure")
+    print_delay("Here you will learn your fate as The Next Adventure waits for you")
+    username = input("Please enter your username: ")
+    print_delay("Hello, " + username + "!")
+    
+
 def instructions():
     print_delay("Instructions:")
 
@@ -33,11 +52,11 @@ def instructions():
     print_delay("==========================================================================")
 
 def intro():
-    print_delay("You wake up in a strange and mysterious room, confused and scared, without any memory of how you goy there!")
+    print_delay("You wake up in a strange and mysterious room, confused and scared, without any memory of how you got there!")
 
     print_delay("You get yourself together and decide to go and explore.")
     
-    print_delay("The right path could save yout life, the wrong door could end it!")
+    print_delay("The right path could save your life, the wrong door could end it!")
 
     print_delay("In front of you there are 3 doors for you to choose from, a black door, a yellow door, and a white door.")
 
@@ -307,6 +326,7 @@ def temple():
         
 def play_game():
     title()
+    welcome()
     instructions()
     intro()
     choose_door()
