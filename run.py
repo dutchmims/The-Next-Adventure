@@ -30,7 +30,7 @@ def instructions():
 
     print_delay("Be careful though! The decisions you make will be your fate.")
 
-    print_delay("==================================================================================================")
+    print_delay("===========================================================================================================")
 
 def intro():
     print_delay("You wake up in a strange and mysterious room, confused and scared, without any memory of how you goy there!")
@@ -179,7 +179,7 @@ def temple():
         print_delay("You look for another way around the guardian.")
         print_delay("After careful exploration, you discover a hidden passage.")
         print_delay("You successfully bypass the guardian and reach the sacred artifact.")
-        print_delay("You break the ancient curse
+        print_delay("You break the ancient curse")
 
         print_delay("You break the ancient curse and retrieve the sacred artifact.")
         print_delay("The wizard commends your ingenuity and grants you safe passage back home.")
