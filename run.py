@@ -60,13 +60,64 @@ def choose_door():
 
 
 def black_door():
-    print_delay("You enter a room filled with treasure!")
-    print_delay("Congratulations! You win the game.")
+    print_delay("You find yourself in a walled maze!")
+    print_delay("You need to find your way out of the maze before it devours you.")
+    print_delay("You hear some rustling and voices!")
+    print_delay("You must choose which way to go.")
+    print_delay("You can either choose to go left or right.")
+
+    print_delay("Which way will you choose? (left/right)")
+    choice = input().lower()
+    if choice == "left":
+        print_delay("You go left and eventually come across a mirror!")
+        print_delay("You look into the mirror and nothing!")
+        print_delay("After a few seconds, you start to see you entire future unfold in the mirror, but it all happens so quickly!")
+        print_delay("You pass out!")
+        print_delay("Suddenly you wake up and Its morning.")
+        print_delay("There is an Elf standing over you with a big grin on his face")
+        print_delay("He introduces himself as Ernie the Elf and tells you the way out of the maze")
+        print_delay("You listen intently to his instructions, bid farewell and set off to find your way out of the maze")
+        print_delay("After walking for a while you eventually see the exit, but Its guarded by two Trolls")
+        print_delay("You have to decide to fight your way out or try and sneak by the Trolls")
+        print_delay("Which way will you choose? (fight/sneak)")
+    choice = input().lower()
+    if choice == "fight":
+        print_delay("You decide to take on the two Trolls! Attacking them while their backs are turned.") 
+        print_delay("you surprise them and get the upper hand. After a long struggle, the Trolls gain the upper hand and kill you")
+        print_delay("Game Over!")
+    elif choice == "sneak":
+        print_delay("You manage to climb the wall of the maze and find a way out without the Trolls spotting you")
+        print_delay("There are two paths in front of you")
+        print_delay("One leads to a cave and the other to a river.")
+        print_delay("Which path do you choose? cave/river")
+    else:
+        print_delay("Invalid choice. Try again.")
+        black_door()	
+
+     print_delay("Which path do you choose? (cave/river)")
+    choice = input().lower()
+    if choice == "cave":
+        print_delay("You enter a cave and find a hidden treasure!")
+        print_delay("Congratulations! You win the game.")
+    elif choice == "river":
+        print_delay("You follow the river and encounter a group of hostile creatures.")
+        fight_or_flee()
+
 
 def yellow_door():
     print_delay("You enter a room full of beasts.")
     print_delay("The beasts devour you.")
     print_delay("Game Over!")
+    print_delay("Game Over!")
+print_delay("Game Over!")
+print_delay("Game Over!")
+print_delay("Game Over!")
+print_delay("Game Over!")
+print_delay("Game Over!")
+print_delay("Game Over!")
+print_delay("Game Over!")
+
+
 
 def white_door():
     print_delay("You enter a dark forest.")
