@@ -36,7 +36,7 @@ def title():
 def welcome():
     print_delay("Welcome to The Next Adventure")
     print_delay("Here you will learn your fate as The Next Adventure waits for you")
-    username = input("Please enter your username: ")
+    username = input("Please enter your username:\n")
     print_delay("Hello, " + username + "!")
     
 
