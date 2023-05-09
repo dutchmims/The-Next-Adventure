@@ -260,40 +260,64 @@ def yellow_door():
         print_delay("Game Over!")
 
         fight_or_flee()
-        
+
     else:
         print_delay("Invalid choice. Try again.")
+
         yellow_door()
 
 
 def white_door():
+
     print_delay("You find yourself in an overgrown, dark and damp forest with a thick fog all around.")
+
     print_delay("Not knowing where you are or being able to see the sun, gives you a tough choice to make.")
+
     print_delay("You decide to walk straight ahead, with caution, avoiding deadly sharp and spikey bushes, watching your back.")
+
     print_delay("After a while without gaining to much distance, you decide to rest, gather your bearings before moving forward.")
+
     print_delay("You give yourself the lift needed to carry on, even with no sign of anything to give you a sense of optimism.")
+
     print_delay("Eventually you come across two paths.")
+
     print_delay("One leads to a cave and the other to a river.")
 
     print_delay("Which path do you choose? (cave/river)")
+
     choice = input().lower()
+
     if choice == "cave":
+
         print_delay("You head in to the cave")
+
         print_delay("It's late, so you decide to collect any wood you can find and light a fire to stay warm.")
+
         print_delay("Your fire warms up the cave and you fall asleep.")
+
         print_delay("Unfortunately a bear lives deep inside this cave and kills you in the middle of the night.")
+
         print_delay("You are never seen or heard from again.")
+
         print_delay("Game over.")
     
     elif choice == "river":
+
         print_delay("You follow the river for several hours until you come across a rope bridge.")
+
         print_delay("It's very old and on its last legs! Crossing it will be treacherous.")
+
         print_delay("You decide to use the rope bridge and cross the river at this point.")
+
         print_delay("Once across you continue to follow the river and suddenly you come upon a settlement.")
+
         print_delay("Several natives spot you approaching!")
+
         fight_or_flee()
+
     else:
         print_delay("Invalid choice. Try again.")
+        
         white_door()
        
 
