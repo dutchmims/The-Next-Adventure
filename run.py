@@ -26,6 +26,7 @@ def print_delay(text, delay=2):
 
 
 def title():
+
     print("================================================================================")
     print("                                                                                ")
     print("                                  The Next Adventure                            ")
@@ -34,6 +35,7 @@ def title():
 
 
 def welcome():
+
     print_delay("Welcome to The Next Adventure")
     print_delay("Here you will learn your fate as The Next Adventure waits for you")
     username = input("Please enter your username:\n")
@@ -41,6 +43,7 @@ def welcome():
     
 
 def instructions():
+
     print_delay("Instructions:")
 
     print_delay("You have to choose between different doors, rooms and path to find your way.")
@@ -52,6 +55,7 @@ def instructions():
     print_delay("==========================================================================")
 
 def intro():
+    
     print_delay("You wake up in a strange and mysterious room, confused and scared, without any memory of how you got there!")
 
     print_delay("You get yourself together and decide to go and explore.")
@@ -322,112 +326,201 @@ def white_door():
        
 
 def fight_or_flee():
+
     print_delay("Do you want to fight or flee? (fight/flee)")
+
     choice = input().lower()
+
     if choice == "fight":
-        print_delay("")
+        
         print_delay("You try to fight, but the natives overpower you.")
+
         print_delay("They bring you to their leader")
+
         print_delay("Here, your fate will be decided!")
+
         print_delay("You are executed then and there!")
+
         print_delay("Game Over!")
+
     elif choice == "flee":
+
         print_delay("You manage to escape and find a safe place.")
+
         print_delay("You continue your journey.")
+
         continue_journey()
+
     else:
+
         print_delay("Invalid choice. Try again.")
+
         fight_or_flee()
 
 
 def continue_journey():
+
     print_delay("You come across a village.")
+
     print_delay("The villagers inform you that a powerful wizard resides in the nearby mountains.")
+
     print_delay("They believe the wizard can help you find your way back home.")
+
     print_delay("Do you want to visit the wizard? (yes/no)")
+
     choice = input().lower()
+
     if choice == "yes":
+
         print_delay("You decide to visit the wizard.")
+
         mountain_path()
+
     elif choice == "no":
+
         print_delay("You choose not to visit the wizard and continue your own journey.")
+
         print_delay("Congratulations! You win the game.")
+
     else:
+
         print_delay("Invalid choice. Try again.")
+
         continue_journey()
         
 
 def mountain_path():
+
     print_delay("You embark on a treacherous journey towards the mountain.")
+
     print_delay("After a long and difficult climb, you reach the wizard's lair.")
+
     print_delay("The wizard welcomes you and asks you to complete a task to prove your worth.")
+
     print_delay("He presents you with two doors.")
+
     print_delay("Behind one door lies the ultimate knowledge, and behind the other lies doom.")
 
     print_delay("Which door do you choose? (knowledge/doom)")
+
     choice = input().lower()
+
     if choice == "knowledge":
+
         print_delay("You open the door and find the ultimate knowledge.")
+
         print_delay("The wizard is impressed and offers to help you find your way back home.")
+
         print_delay("But before you leave, he warns you about an ancient curse.")
+
         print_delay("To break the curse, you must retrieve a sacred artifact.")
+
         print_delay("The artifact is hidden deep in a forbidden temple.")
+
         print_delay("Will you accept the wizard's quest? (yes/no)")
+
         choice = input().lower()
+
         if choice == "yes":
+
             print_delay("You accept the wizard's quest and set off to find the forbidden temple.")
+
             print_delay("Your journey is perilous, but after many hardships, you arrive at the temple.")
+
             temple()
+
         elif choice == "no":
+
             print_delay("You decline the wizard's quest and decide to find your own way back home.")
-            print_delay("Congratulations! You win the game.")
+
+            print_delay("You lose")
+
         else:
             print_delay("Invalid choice. Try again.")
+
             mountain_path()
+
     elif choice == "doom":
+
         print_delay("You open the door and are consumed by darkness.")
+
         print_delay("Game Over!")
+
     else:
+
         print_delay("Invalid choice. Try again.")
+
         mountain_path()
 
 def temple():
+
     print_delay("You enter the forbidden temple, feeling the weight of ancient power.")
+
     print_delay("The temple is filled with traps and guardians, testing your every step.")
+
     print_delay("As you navigate through the treacherous halls, you finally reach the chamber of the sacred artifact.")
+
     print_delay("But retrieving it won't be easy. A guardian stands between you and the artifact.")
 
     print_delay("Will you fight the guardian, use stealth, or find another way? (fight/stealth/another)")
+
     choice = input().lower()
+
     if choice == "fight":
+
         print_delay("You engage in a fierce battle with the guardian.")
+
         print_delay("After a grueling fight, you emerge victorious.")
+
         print_delay("You claim the sacred artifact and break the ancient curse.")
+
         print_delay("The wizard is grateful for your bravery and grants you safe passage back home.")
+
         print_delay("Congratulations! You win the game.")
+
     elif choice == "stealth":
+
         print_delay("You decide to use your stealth skills to navigate past the guardian.")
+
         chance = random.randint(0, 1)  # Randomly determine success or failure
+
         if chance == 0:
+
             print_delay("Your attempt to sneak past the guardian fails.")
+
             print_delay("The guardian captures you, and you fail to retrieve the artifact.")
+
             print_delay("Game Over!")
+
         else:
+
             print_delay("Your stealthy approach succeeds!")
+
             print_delay("You retrieve the sacred artifact and break the ancient curse.")
+
             print_delay("The wizard is impressed by your resourcefulness and grants you safe passage back home.")
+
             print_delay("Congratulations! You win the game.")
+
     elif choice == "another":
+
         print_delay("You look for another way around the guardian.")
+
         print_delay("After careful exploration, you discover a hidden passage.")
+
         print_delay("You successfully bypass the guardian and reach the sacred artifact.")
+
         print_delay("You break the ancient curse")
 
         print_delay("You break the ancient curse and retrieve the sacred artifact.")
+
         print_delay("The wizard commends your ingenuity and grants you safe passage back home.")
+
         print_delay("Congratulations! You win the game.")
+
     else:
         print_delay("Invalid choice. Try again.")
+
         temple()
         
 def play_game():
