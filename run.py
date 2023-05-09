@@ -121,6 +121,7 @@ def black_door():
         print_delay("You look into the mirror and nothing!")
 
         print_delay("After a few seconds, you start to see you entire future unfold in the mirror, but it all happens so quickly!")
+
         print_delay("You pass out!")
 
         print_delay("Suddenly you wake up and It's morning.")
@@ -141,9 +142,9 @@ def black_door():
 
         print_delay("The noise of people coming towards gets louder and louder.")
 
-        print_delay("you try to find somewher to hide, but its too late.")
+        print_delay("You try to find somewhere to hide, but it's too late.")
 
-        print_delay("A couple of guards ome around the corner and spot you.")
+        print_delay("A couple of guards come around the corner and spot you.")
 
         print_delay("You look up and realise they have spotted you!")
 
