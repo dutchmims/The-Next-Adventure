@@ -94,7 +94,7 @@ def choose_door():
 
     else:
 
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         choose_door()
 
@@ -156,7 +156,7 @@ def black_door():
         print_delay("Game Over!")
 
     else:
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         choose_door()
    
@@ -181,7 +181,7 @@ def black_door():
         print_delay("Which path do you choose? (cave/river)")
 
     else:
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         black_door()	
 
@@ -280,10 +280,8 @@ def yellow_door():
 
         print_delay("Game Over!")
 
-        fight_or_flee()
-
     else:
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         yellow_door()
 
@@ -337,7 +335,7 @@ def white_door():
         fight_or_flee()
 
     else:
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
         
         white_door()
        
@@ -370,7 +368,7 @@ def fight_or_flee():
 
     else:
 
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         fight_or_flee()
 
@@ -397,11 +395,13 @@ def continue_journey():
 
         print_delay("You choose not to visit the wizard and continue your own journey.")
 
-        print_delay("Congratulations! You win the game.")
+        print_delay("You trek into the wilderness, never to be seen again!")
+
+        print_delay("Game Over!")
 
     else:
 
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         continue_journey()
         
@@ -418,7 +418,7 @@ def mountain_path():
 
     print_delay("Behind one door lies the ultimate knowledge, and behind the other lies doom.")
 
-    print_delay("Which door do you choose? (knowledge/doom)")
+    print_delay("Which door do you choose? (knowledge/enlightenment)")
 
     choice = input().lower()
 
@@ -450,14 +450,14 @@ def mountain_path():
 
             print_delay("You decline the wizard's quest and decide to find your own way back home.")
 
-            print_delay("You lose")
+            print_delay("You lose, Game over!")
 
         else:
-            print_delay("Invalid choice. Try again.")
+            print("Invalid choice. Try again.")
 
             mountain_path()
 
-    elif choice == "doom":
+    elif choice == "Enlightenment":
 
         print_delay("You open the door and are consumed by darkness.")
 
@@ -465,7 +465,7 @@ def mountain_path():
 
     else:
 
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         mountain_path()
 
@@ -536,7 +536,7 @@ def temple():
         print_delay("Congratulations! You win the game.")
 
     else:
-        print_delay("Invalid choice. Try again.")
+        print("Invalid choice. Try again.")
 
         temple()
         
