@@ -20,7 +20,7 @@ os.system('clear')
 add print_delay function to create a more immersive experience
 """
 
-def print_delay(text, delay=2):
+def print_delay(text, delay=3):
     print(text)
     time.sleep(delay)
 
