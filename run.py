@@ -37,8 +37,11 @@ def title():
 def welcome():
 
     print_delay("Welcome to The Next Adventure")
+
     print_delay("Here you will learn your fate as The Next Adventure waits for you")
+
     username = input("Please enter your username:\n")
+
     print_delay("Hello, " + username + "!")
     
 
@@ -46,7 +49,7 @@ def instructions():
 
     print_delay("Instructions:")
 
-    print_delay("You have to choose between different doors, rooms and path to find your way.")
+    print_delay("You have to choose between different doors, rooms and paths to find your way.")
 
     print_delay("Your task is to get to the end and win the game.")
 
@@ -66,19 +69,33 @@ def intro():
 
 
 def choose_door():
+
     print_delay("Which door do you choose? (black/yellow/white)")
+
     choice = input().lower()
+
     if choice == "black":
+
         print_delay("You open the black door.")
+
         black_door()
+
     elif choice == "yellow":
+
         print_delay("You open the yellow door.")
+
         yellow_door()
+
     elif choice == "white":
+
         print_delay("You open the white door.")
+
         white_door()
+
     else:
+
         print_delay("Invalid choice. Try again.")
+
         choose_door()
 
 
@@ -159,7 +176,7 @@ def black_door():
 
         print_delay("There are two paths in front of you.")
 
-        print_delay("One leads to a cave and the other to a river.")
+        print_delay("One leads into a cave and the other to a river.")
 
         print_delay("Which path do you choose? (cave/river)")
 
@@ -172,7 +189,7 @@ def black_door():
 
     if choice == "cave":
 
-        print_delay("You head in to the cave.")
+        print_delay("You head into the cave.")
 
         print_delay("It's late, so you decide to collect any wood you can find and light a fire to stay warm.")
 
