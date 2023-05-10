@@ -65,8 +65,8 @@ This games story, flow, choices and decisions were all designed by myself. I use
 # Deployment
 
 # Sources 
-• The template for my project was provided by the Code Institiute.
-• Much of the python coding I put together was done with help from https://www.w3schools.com/
-• I used stack overflow to help me to solve issues throughout my project.
-• I used the following Youtube tutorials to help create my project. https://www.youtube.com/watch?v=u8X6TiJA8as&t=71s https://www.youtube.com/watch?v=DEcFCn2ubSg
+- The template for my project was provided by the Code Institiute.
+- Much of the python coding I put together was done with help from https://www.w3schools.com/
+- I used stack overflow to help me to solve issues throughout my project.
+- I used the following Youtube tutorials to help create my project. https://www.youtube.com/watch?v=u8X6TiJA8as&t=71s https://www.youtube.com/watch?v=DEcFCn2ubSg
 
