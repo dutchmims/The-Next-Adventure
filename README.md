@@ -29,8 +29,21 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 
 
 # Features
+
 # UX/UI
+
 # Design
+
+## Flowchart
+
+
+<img width="536" alt="Wireframes:p1" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/f8d0c16f-2343-4d1e-8ef8-5f9382c271ba">
+<img width="535" alt="Wireframes:white" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/09310214-4b61-4b79-94f3-24445168d3fb">
+<img width="533" alt="Wireframes:yellow" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/dea47d72-77ff-451f-9729-c0809046291a">
+<img width="534" alt="Wireframes:black" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/40fcff9e-8ea1-4808-8bc0-7925e8442229">
+<img width="536" alt="Wireframes:p2" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/1f4cc1c6-c6af-4759-b146-96041252a3d0">
+<img width="537" alt="Wireframes:p3" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/9c788878-4b47-48d0-bb98-172253822dbe">
+
 # Technologies Used
 # Testing
 # Deployment
