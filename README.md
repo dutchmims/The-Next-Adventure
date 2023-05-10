@@ -36,6 +36,7 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 
 ## Flowchart
 
+This games story, flow, choices and decisions were all designed by myself. I used figma to map out the game, with each and every scenario and outcome. The game can end extremely quickly if one chooses the wrong door and makes a wrong turn, on the other hand, if one chooses all the correct doors, paths etc. it is extremely involved and engrossing. It initially starts with a the player having to choose a door and so on.
 
 <img width="536" alt="Wireframes:p1" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/f8d0c16f-2343-4d1e-8ef8-5f9382c271ba">
 <img width="535" alt="Wireframes:white" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/09310214-4b61-4b79-94f3-24445168d3fb">
@@ -45,6 +46,22 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 <img width="537" alt="Wireframes:p3" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/9c788878-4b47-48d0-bb98-172253822dbe">
 
 # Technologies Used
+
+## Languages
+
+1. Python was used to create and design the game
+
+## Frameworks and Tools
+
+1. Github was the version control used.
+2. Gitpod was the IDE used.
+3. Figma was used to produce wireframes.
+4. Heroku is where the game is hosted.
+
+5.
+6. 
+
+
 # Testing
 # Deployment
 # Sources 
