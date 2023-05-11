@@ -413,7 +413,7 @@ def mountain_path():
 
     print_delay("He presents you with two doors.")
 
-    print_delay("Behind one door lies the ultimate knowledge, and behind the other lies doom.")
+    print_delay("Behind one door lies the ultimate knowledge, and behind the other lies enlightenment.")
 
     print_delay("Which door do you choose? (knowledge/enlightenment)")
 
