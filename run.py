@@ -476,13 +476,20 @@ def temple():
 
     print_delay("But retrieving it won't be easy. A guardian stands between you and the artifact.")
 
-    print_delay("Will you fight the guardian, use stealth, or find another way? (fight/stealth/another)")
+    print_delay("Will you fight the guardian or use stealth ? (fight/stealth)")
 
     choice = input().lower()
+
 
     if choice == "fight":
 
         print_delay("You engage in a fierce battle with the guardian.")
+
+        print_delay("He gains the upper hand and hits you.")
+
+        print_delay("You fall to the ground, but manage to get back to your feet.")
+
+        print_delay("You start to become dominat and strike the guardian several times.")
 
         print_delay("After a grueling fight, you emerge victorious.")
 
@@ -492,45 +499,26 @@ def temple():
 
         print_delay("Congratulations! You win the game.")
 
+
     elif choice == "stealth":
 
         print_delay("You decide to use your stealth skills to navigate past the guardian.")
 
-        chance = random.randint(0, 1)  # Randomly determine success or failure
+         print_delay("Your attempt to sneak past the guardian fails.")
 
-        if chance == 0:
+        print_delay("The guardian captures you, and you fail to retrieve the artifact.")
 
-            print_delay("Your attempt to sneak past the guardian fails.")
-
-            print_delay("The guardian captures you, and you fail to retrieve the artifact.")
-
-            print_delay("Game Over!")
-
-        else:
-
-            print_delay("Your stealthy approach succeeds!")
-
-            print_delay("You retrieve the sacred artifact and break the ancient curse.")
-
-            print_delay("The wizard is impressed by your resourcefulness and grants you safe passage back home.")
-
-            print_delay("Congratulations! You win the game.")
-
-    elif choice == "another":
-
-        print_delay("You look for another way around the guardian.")
+        print_delay("You look to escape.")
 
         print_delay("After careful exploration, you discover a hidden passage.")
 
         print_delay("You successfully bypass the guardian and reach the sacred artifact.")
 
-        print_delay("You break the ancient curse")
+        print_delay("You can't break the ancient curse")
 
-        print_delay("You break the ancient curse and retrieve the sacred artifact.")
+        print_delay("The artifact devours you")
 
-        print_delay("The wizard commends your ingenuity and grants you safe passage back home.")
-
-        print_delay("Congratulations! You win the game.")
+        print_delay("You lose, Game Over!")
 
     else:
         print("Invalid choice. Try again.")
