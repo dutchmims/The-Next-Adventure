@@ -1,6 +1,8 @@
-# Code Institute Project 3 The Next Adventure
+# Code Institute Project 3 
 
 ## Python
+
+### The Next Adventure
 
 ### README.md by James Healy
 
