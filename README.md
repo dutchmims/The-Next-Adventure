@@ -93,6 +93,20 @@ I played the game and tested all the routes throughout the game. Initially I fou
 4. From the source section, select the Master Branch and then save.
 5. The page is refreshed and you will then see the URL of your website.
 
+### The site is live and hosted by Heroku
+
+1. The project utilized CI's mock terminal.
+2. In Gitpod, I ran "pip3 freeze > requirements.txt in the terminal before creating a new app in Heroku.
+3. In Heroku click on "Create a new app" tab.
+4. Name the new app and select your region.
+5. In "Settings", click on "Reveal Config Vars" tab and input the folloing, KEY: PORT, VALUE: 8000.
+6. In "Settings" click on "Add buildpack" tab and select Python and Node.js, in this order.
+8. Move to the "Deploy" section and select Github and confirm you want to connect to Github.
+9. Type in the repository you want to deploy.
+10. You can either choose to set "Automatic Deploys" or the manual option "Deploy Branch".
+11. Click on the required tab and Heroku will build your app.
+12. A tab will appear with your app successfully deployed.
+13. Click this tab "View" to see you app live.
 
 # Sources 
 - The template for my project was provided by the Code Institiute.
