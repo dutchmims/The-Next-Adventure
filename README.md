@@ -13,11 +13,12 @@
 
 1. Project Overview
 2. Features
-3. Design
-4. Technologies Used
-5. Testing
-6. Deployment
-7. Sources 
+3. UX/UI
+4. Design
+5. Technologies Used
+6. Testing
+7. Deployment
+8. Sources 
 
 
 ## Project Overview
@@ -29,6 +30,28 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 
 # Features
 
+# UX/UI
+
+## Website Goals
+
+* As the website owner
+1. I want to gain as many views as possible.
+2. I want to gain as many players as possible.
+3. I want to have several options to encourage players play again and again
+4. I want users to have an enjoyable gameplay experience and recommend it to others.
+5. I want to provide the best quality game available.
+
+## User Goals
+
+* As a first time visitor
+1. I want to easily understand the game and be able to pick it up and play.
+2. I want to play the game on all different media devices.
+3. I want to know how to play the game easily.
+4. I want to know what other games are made by this company.
+
+* As a returning visitor
+1. I want to navigate quickly and play the game without interuption.
+2. I want to find out what other games the company makes.
 
 # Design
 
