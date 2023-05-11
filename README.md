@@ -13,12 +13,11 @@
 
 1. Project Overview
 2. Features
-3. UX/UI
-4. Design
-5. Technologies Used
-6. Testing
-7. Deployment
-8. Sources 
+3. Design
+4. Technologies Used
+5. Testing
+6. Deployment
+7. Sources 
 
 
 ## Project Overview
@@ -30,7 +29,6 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 
 # Features
 
-# UX/UI
 
 # Design
 
@@ -43,10 +41,9 @@ This games story, flow, choices and decisions were all designed by myself. I use
 <img width="533" alt="Wireframes:yellow" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/dea47d72-77ff-451f-9729-c0809046291a">
 <img width="534" alt="Wireframes:black" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/40fcff9e-8ea1-4808-8bc0-7925e8442229">
 <img width="536" alt="Wireframes:p2" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/1f4cc1c6-c6af-4759-b146-96041252a3d0">
-<img width="537" alt="Wireframes:p3" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/9c788878-4b47-48d0-bb98-172253822dbe">
+<img width="504" alt="Wireframes:p3" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/94d39bd4-6749-47e9-bdb7-55799f6f1819">
 
 # Technologies Used
-
 
 ## Languages
 
@@ -62,11 +59,33 @@ This games story, flow, choices and decisions were all designed by myself. I use
 
 # Testing
 
+- I found several bugs while coding this project. I rectified these with tutorials from w3 schools and stack overflow.
+- I had issues with heroku at the beginning, which set me back several days as I needed Heroku customer support to advise me.
+- After runing CI Python Linter, I had numerous issues. As much of the story was longer than 80 characters, I had to re-write much of it at the last minute.
+
+<img width="1252" alt="Screenshot 2023-05-11 at 18 52 04" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/9366741a-b7ed-42c8-94dd-ad4d2f2d892e">
+
+<img width="1278" alt="Screenshot 2023-05-11 at 18 51 55" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/d3a8bd15-2367-4ba9-9525-4fbce2426056">
+
+<img width="1274" alt="Screenshot 2023-05-11 at 18 51 42" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/6ab250a2-7b60-45ce-bec9-911b2c629ca3">
+
+<img width="1272" alt="Screenshot 2023-05-11 at 18 51 27" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/8dbc3838-2569-4179-84a9-fa4ff4b9a2b4">
+
+<img width="1279" alt="Screenshot 2023-05-11 at 18 51 12" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/f79ada64-4bff-4f5e-ac3f-5c7916fedb41">
+
+<img width="1275" alt="Screenshot 2023-05-11 at 18 50 57" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/bb3a6d3e-3267-4321-9d6e-5f1b1564793d">
+
+<img width="1269" alt="Screenshot 2023-05-11 at 18 50 43" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/69e52222-b096-4108-9f48-8d457c1910aa">
+
+<img width="1269" alt="Screenshot 2023-05-11 at 18 50 30" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/5ff1eec0-130f-465e-8cfe-e317453ab418">
+
+
+
 # Deployment
 
 # Sources 
 - The template for my project was provided by the Code Institiute.
 - Much of the python coding I put together was done with help from https://www.w3schools.com/
-- I used stack overflow to help me to solve issues throughout my project.
+- I used both w3 schools and stack overflow to help me to solve issues throughout my project.
 - I used the following Youtube tutorials to help create my project. https://www.youtube.com/watch?v=u8X6TiJA8as&t=71s https://www.youtube.com/watch?v=DEcFCn2ubSg
 
