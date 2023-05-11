@@ -79,9 +79,20 @@ This games story, flow, choices and decisions were all designed by myself. I use
 
 <img width="1269" alt="Screenshot 2023-05-11 at 18 50 30" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/5ff1eec0-130f-465e-8cfe-e317453ab418">
 
+### Manual Testing
 
+I played the game and tested all the routes throughout the game. Initially I found issues. I kept testing while writing more of the program and came across numerous issus which I fixed and corrected. The functions also faced issues in the early stages, but I was able to fix these issues.
 
 # Deployment
+
+### The site was deployed to GitHub pages. The steps taken are as follows:
+
+1. Log in to Github
+2. In the repository "The-Next-Adventure", navigate to the settings tab from the top menu.
+3. In settings select pages.
+4. From the source section, select the Master Branch and then save.
+5. The page is refreshed and you will then see the URL of your website.
+
 
 # Sources 
 - The template for my project was provided by the Code Institiute.
