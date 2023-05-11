@@ -477,9 +477,8 @@ def temple():
     print_delay("But retrieving it won't be easy. A guardian stands between you and the artifact.")
 
     print_delay("Will you fight the guardian or use stealth ? (fight/stealth)")
-
+    
     choice = input().lower()
-
 
     if choice == "fight":
 
@@ -504,7 +503,7 @@ def temple():
 
         print_delay("You decide to use your stealth skills to navigate past the guardian.")
 
-         print_delay("Your attempt to sneak past the guardian fails.")
+        print_delay("Your attempt to sneak past the guardian fails.")
 
         print_delay("The guardian captures you, and you fail to retrieve the artifact.")
 
