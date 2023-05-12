@@ -2,19 +2,11 @@ import time
 
 import os
 
-"""
-For Windows
-"""
-os.system('cls')
-
-"""
-For Linux, macOS
-"""
-os.system('clear')
 
 """
 add print_delay function to create a more immersive experience
 """
+
 
 def print_delay(text, delay=3):
     print(text)
@@ -28,7 +20,7 @@ def title():
     print("                   The Next Adventure                       ")
     print("                                                            ")
     print("============================================================")
-     
+
 
 def welcome():
 
@@ -41,7 +33,7 @@ def welcome():
     print_delay("Hello, " + username + "!")
 
     print_delay("============================================================")
-    
+
 
 def instructions():
 
@@ -54,6 +46,7 @@ def instructions():
     print_delay("Be careful though! The decisions you make will be your fate.")
 
     print_delay("============================================================")
+
 
 def intro():
     
@@ -409,7 +402,7 @@ def white_door():
         print("Invalid choice. Try again.")
         
         white_door()
-       
+
 
 def fight_or_flee():
 
@@ -479,7 +472,7 @@ def continue_journey():
         print("Invalid choice. Try again.")
 
         continue_journey()
-        
+
 
 def mountain_path():
 
@@ -556,6 +549,7 @@ def mountain_path():
 
         mountain_path()
 
+
 def temple():
 
     print_delay("You enter the forbidden temple.")
@@ -627,7 +621,8 @@ def temple():
         print("Invalid choice. Try again.")
 
         temple()
-        
+
+
 def play_game():
     title()
     welcome()
@@ -635,4 +630,6 @@ def play_game():
     intro()
     choose_door()
 
+
 play_game()
+
