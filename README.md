@@ -168,6 +168,9 @@ I played the game and tested all the routes throughout the game. Initially I fou
 4. From the source section, select the Master Branch and then save.
 5. The page is refreshed and you will then see the URL of your website.
 
+### Cloning
+1. To clone the repository go to this link: https://github.com/git-guides/git-clone
+
 ### The site is live and hosted by Heroku
 
 1. The project utilized CI's mock terminal.
@@ -182,9 +185,6 @@ I played the game and tested all the routes throughout the game. Initially I fou
 11. Click on the required tab and Heroku will build your app.
 12. A tab will appear with your app successfully deployed.
 13. Click this tab "View" to see you app live.
-
-### Cloning
-1. To clone the repository go to this link: https://github.com/git-guides/git-clone
 
 # Sources 
 - The template for my project was provided by the Code Institiute.
