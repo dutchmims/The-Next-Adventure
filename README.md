@@ -61,6 +61,19 @@ The player receives an Introduction to the game to give them a feel for what's i
 
 <img width="541" alt="Screenshot 2023-05-12 at 09 46 08" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/90970f76-cf26-4fd0-bf4e-707fc06aa6cf">
 
+### Import time and os
+
+- "The Python time module provides many ways of representing time in code, such as objects, numbers, and strings. It also provides functionality other than representing time, like waiting during code execution and measuring the efficiency of your code."
+
+- "The OS module in Python is a part of the standard library of the programming language. When imported, it lets the user interact with the native OS Python is currently running on. In simple terms, it provides an easy way for the user to interact with several os functions that come in handy in day to day programming."
+
+<img width="166" alt="Screenshot 2023-05-12 at 10 26 11" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/92c2ff6e-e7b8-4d55-8bf8-ec99d8a8ad78">
+
+### Function Print_Delay
+- This function was used to delay text and create a more immersive experience for the game and the player. It also helps building tension and slows gameplay down so It can all be absorbed.
+
+<img width="266" alt="Screenshot 2023-05-12 at 10 26 21" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/bf1673ff-e900-4515-bd91-acfc7ed5aecf">
+
 
 # UX/UI
 
@@ -163,9 +176,12 @@ I played the game and tested all the routes throughout the game. Initially I fou
 12. A tab will appear with your app successfully deployed.
 13. Click this tab "View" to see you app live.
 
+
 # Sources 
 - The template for my project was provided by the Code Institiute.
 - Much of the python coding I put together was done with help from https://www.w3schools.com/
 - I used both w3 schools and stack overflow to help me to solve issues throughout my project.
-- I used the following Youtube tutorials to help create my project. https://www.youtube.com/watch?v=u8X6TiJA8as&t=71s https://www.youtube.com/watch?v=DEcFCn2ubSg
-
+- I used the following Youtube tutorial to help create my project. https://www.youtube.com/watch?v=u8X6TiJA8as&t=71s 
+- I used the following Youtube tutorial to help create my project. https://www.youtube.com/watch?v=DEcFCn2ubSg
+- https://www.edureka.co/blog/os-module-in-python was used for the definition of the os import.
+- https://realpython.com/python-time-module/ was used for the definition of the time import.
