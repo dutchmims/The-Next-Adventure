@@ -151,7 +151,14 @@ This games story, flow, choices and decisions were all designed by myself. I use
 
 I played the game and tested all the routes throughout the game. Initially I found issues. I kept testing while writing more of the program and came across numerous issus which I fixed and corrected. The functions also faced issues in the early stages, but I was able to fix these issues.
 
+
 # Deployment
+
+### Version Control
+
+1. In the Gitpod terminal type "git add ." to make updates to the files.
+2. Next type "git commit -m " adding a comment. This commits the updates to the files.
+3. Next type "git push" to push the changes to your GitHub repository.
 
 ### The site was deployed to GitHub pages. The steps taken are as follows:
 
@@ -176,6 +183,8 @@ I played the game and tested all the routes throughout the game. Initially I fou
 12. A tab will appear with your app successfully deployed.
 13. Click this tab "View" to see you app live.
 
+### Cloning
+1. To clone the repository go to this link: https://github.com/git-guides/git-clone
 
 # Sources 
 - The template for my project was provided by the Code Institiute.
