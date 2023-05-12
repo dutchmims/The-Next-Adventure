@@ -1,8 +1,6 @@
-# Code Institute Project 3 
+# Code Institute Project 3 Python
 
-## Python
-
-### The Next Adventure
+# The Next Adventure
 
 ### README.md by James Healy
 
@@ -31,6 +29,18 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 
 
 # Features
+
+<img width="605" alt="Screenshot 2023-05-12 at 09 44 23" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/2d3177d5-60ba-49f2-8db9-a6be5e975134">
+
+<img width="571" alt="Screenshot 2023-05-12 at 09 45 40" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/ad407c9b-cfe4-454a-ad27-ec5430c2266a">
+
+<img width="559" alt="Screenshot 2023-05-12 at 09 45 50" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/a848a47c-e3d8-4e2f-b9df-90b4ce7faa6d">
+
+<img width="561" alt="Screenshot 2023-05-12 at 09 45 59" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/51820a7f-274b-4797-9593-18a53fb87199">
+
+<img width="541" alt="Screenshot 2023-05-12 at 09 46 08" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/c057493b-7f44-4f18-90db-20fa3fe42cae">
+
+
 
 # UX/UI
 
