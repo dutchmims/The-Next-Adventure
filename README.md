@@ -30,16 +30,36 @@ The Next Adventure is a text based adventure game designed to entertain, keep pl
 
 # Features
 
+## Game Elements
+
+### Welcome
+The player receives a welcome message to the game.
+
 <img width="605" alt="Screenshot 2023-05-12 at 09 44 23" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/2d3177d5-60ba-49f2-8db9-a6be5e975134">
 
-<img width="571" alt="Screenshot 2023-05-12 at 09 45 40" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/ad407c9b-cfe4-454a-ad27-ec5430c2266a">
+### Enter Name
+The player receives a message to enter their name to proceed.
 
-<img width="559" alt="Screenshot 2023-05-12 at 09 45 50" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/a848a47c-e3d8-4e2f-b9df-90b4ce7faa6d">
+<img width="605" alt="Screenshot 2023-05-12 at 09 44 23" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/71c67ac9-9535-4461-b249-811e8695935f">
 
-<img width="561" alt="Screenshot 2023-05-12 at 09 45 59" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/51820a7f-274b-4797-9593-18a53fb87199">
+### Name
+The player is then greeted by their own name.
 
-<img width="541" alt="Screenshot 2023-05-12 at 09 46 08" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/c057493b-7f44-4f18-90db-20fa3fe42cae">
+<img width="571" alt="Screenshot 2023-05-12 at 09 45 40" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/46dd07ab-6885-4af2-9f23-44a3e30c63b7">
 
+### Instructions
+The player get a small list of instructions.
+
+<img width="559" alt="Screenshot 2023-05-12 at 09 45 50" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/7b8b465b-6955-4a00-ac82-3feed4c09567">
+
+### Intro
+The player receives an Introduction to the game to give them a feel for what's involved and what to expect.
+
+<img width="561" alt="Screenshot 2023-05-12 at 09 45 59" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/d88bdd32-48ab-43d0-8d00-f4e1fd56d2c5">
+
+### First Decision
+
+<img width="541" alt="Screenshot 2023-05-12 at 09 46 08" src="https://github.com/dutchmims/The-Next-Adventure/assets/119881922/90970f76-cf26-4fd0-bf4e-707fc06aa6cf">
 
 
 # UX/UI
