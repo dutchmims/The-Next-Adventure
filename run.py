@@ -39,6 +39,8 @@ def welcome():
     username = input("Please enter your username:\n")
 
     print_delay("Hello, " + username + "!")
+
+    print_delay("============================================================")
     
 
 def instructions():
@@ -68,6 +70,8 @@ def intro():
     print_delay("In front of you there are 3 doors for you to choose from.")
     
     print_delay("A black door, a yellow door, and a white door.")
+
+    print_delay("============================================================")
 
 
 def choose_door():
